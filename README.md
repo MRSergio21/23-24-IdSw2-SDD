@@ -4,8 +4,6 @@
 
 + Tambien se crearon las diferentes relaciones que existen entre todas las clases
 
-+ Por ultimo se revisó el codigo base para seguir con el principio de Clean Code
-
  [Explicacion más a detalle de la parte de Diseño](/src/README.md)
 
 
