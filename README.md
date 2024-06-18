@@ -1,4 +1,4 @@
-# Proyecto Aspiradora - Versión 1(Modelo)
+# Proyecto Aspiradora - Versión 1(Diseño)
 
 + En esta version se explica como fue que se empezó a crear la idea de la aspiradora, teniendo en cuenta el enunciado y sus requerimientos, se fue creando un modelo del dominio para tener una imagen mas clara de como se abordaría el problema.
 
