@@ -37,7 +37,7 @@ El **Controlador** actúa como intermediario entre el modelo y la vista, manejan
 Esta separación entre la lógica de negocio, la interfaz de usuario y el control del flujo de la aplicación facilita el mantenimiento y la escalabilidad del código del proyecto, ya que cada componente puede ser modificado independientemente del otro. Además, esta estructura promueve una mayor eficiencia en el desarrollo, permitiendo que diferentes miembros del equipo trabajen en paralelo en distintas partes del proyecto.
 
 
-# Cambios Específicos en el Código
+## Cambios Específicos en el Código
 | Clase                | Versión-003                                                                                                                                         | Versión-003-MVC                                                                                                                                                      |
 |---|---|---|
 | **Habitacion**       | `Habitacion` gestionaba tanto la estructura como la lógica de impresión y generación de muebles.                                                         | `Habitacion` se centra únicamente en la estructura de la habitación, mientras que la lógica de impresión se delega a `VistaHabitacion` y la generación de muebles y demás lógica a `ControladorHabitacion`.  |
