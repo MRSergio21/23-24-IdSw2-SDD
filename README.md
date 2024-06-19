@@ -48,13 +48,4 @@ Una clase que contiene las 4 relaciones de colaboración es la clase Azulejo:
 
   
 
-<div align=center>
 
-|pyAspiradora|Ver Versiones|
-|-|:-:|
-|Version 2|[👁️📒](https://github.com/MRSergio21/23-24-IdSw2-SDD/tree/feature/version002)|
-|Version 3|[👁️📒](https://github.com/MRSergio21/23-24-IdSw2-SDD/tree/feature/version003)|
-|Version 3 - MVC|[👁️📒](https://github.com/MRSergio21/23-24-IdSw2-SDD/tree/feature/version003-mvc)|
-|Version 4|[👁️📒](https://github.com/MRSergio21/23-24-IdSw2-SDD/tree/main)|
-
-</div>
