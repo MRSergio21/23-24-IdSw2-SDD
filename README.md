@@ -1,4 +1,4 @@
-# Proyecto Aspiradora - Versión 3-MVC
+# Proyecto Aspiradora - Versión-003-MVC
 
 
 En esta versión del proyecto, el código fue transformado para adoptar el patrón de diseño Modelo-Vista-Controlador (MVC). Este patrón de arquitectura divide el proyecto en tres componentes interconectados, pero claramente diferenciados, lo cual simplifica la gestión del código y mejora su mantenibilidad, escalabilidad y posibilidad de prueba.
@@ -37,16 +37,12 @@ El **Controlador** actúa como intermediario entre el modelo y la vista, manejan
 Esta separación entre la lógica de negocio, la interfaz de usuario y el control del flujo de la aplicación facilita el mantenimiento y la escalabilidad del código del proyecto, ya que cada componente puede ser modificado independientemente del otro. Además, esta estructura promueve una mayor eficiencia en el desarrollo, permitiendo que diferentes miembros del equipo trabajen en paralelo en distintas partes del proyecto.
 
 
-# Versiones
+# Cambios Específicos en el Código
+| Clase                | Versión-003                                                                                                                                         | Versión-003-MVC                                                                                                                                                      |
+|---|---|---|
+| **Habitacion**       | `Habitacion` gestionaba tanto la estructura como la lógica de impresión y generación de muebles.                                                         | `Habitacion` se centra únicamente en la estructura de la habitación, mientras que la lógica de impresión se delega a `VistaHabitacion` y la generación de muebles y demás lógica a `ControladorHabitacion`.  |
+| **Aspiradora**       | `Aspiradora` gestionaba directamente su estado y comportamientos, incluyendo la posición, nivel de batería y capacidad de basura.                        | `Aspiradora` sigue gestionando su estado, pero ahora interactúa con la vista a través de `VistaAspiradora` y la lógica de movimiento se maneja en `ControladorAspiradora`. |
+| **Elementos**        | `Elementos` contenía los diferentes elementos de impresión y era una clase simple y poco utilizada.                                                                         | `Elementos` se ha integrado en `Utils`, donde proporciona funciones utilitarias para tareas comunes.                                                              |
+| **Gato**             | `Gato` gestionaba su posición y comportamientos directamente dentro de la clase, incluyendo la lógica de movimiento y ensuciar.                          | `Gato` sigue gestionando su posición, pero ahora la lógica de movimiento y ensuciar se maneja en `ControladorGato`.                                               |
+| **Dimension**        | La dimensión de la habitación se solicitaba y gestionaba directamente dentro de la clase `Habitacion` a través de un metodo dentro de la clase `Dimension`.                                                    | `Dimensión` ahora es una clase separada que define las dimensiones espaciales de la habitación, y no gestiona la entrada de datos del usuario, mejorando la separación de responsabilidades y la cohesión.        |
 
-
-<div align=center>
-
-|pyAspiradora|Ver Versiones|
-|-|:-:|
-|Version 1|[👁️📒](https://github.com/MRSergio21/23-24-IdSw2-SDD/tree/feature/version001)|
-|Version 2|[👁️📒](https://github.com/MRSergio21/23-24-IdSw2-SDD/tree/feature/version002)|
-|Version 3|[👁️📒](https://github.com/MRSergio21/23-24-IdSw2-SDD/tree/feature/version003)|
-|Version 4|[👁️📒](https://github.com/MRSergio21/23-24-IdSw2-SDD/tree/main)|
-
-</div>
